@@ -39,6 +39,8 @@ with open(file) as f:
     weekDaysLi = []
     for day in weekDaysDict.keys():
         weekDaysLi.append(st.mean(weekDaysDict.get(day)))
+        
+    #for number 2 of case 4
 
     histWeekday = pg.Bar()
     histWeekday.title = "Average steps on weekdays"
